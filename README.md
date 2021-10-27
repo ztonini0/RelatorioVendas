@@ -9,9 +9,12 @@ Para extrair das demais lojas o faturamento total de cada uma, quantidade e tick
 Para testar o projeto é necessário ter o python instalado com as demais bibliotecas abaixos.
 
 pip install openpyxl
+<p>
 pip install pandas
+<p>
 pip install twilio
+<p>
 pip install win32
-
+<p>
 É necessário também criar uma conta no twilio gratuita e cadastrar seu número, algum que você tenha acesso, pegar o token e o número que eles váo disponibilizar.
 
