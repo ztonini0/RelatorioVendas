@@ -37,7 +37,7 @@ mail.Subject = 'Relatório de Vendas por Loja'
 mail.HTMLBody = f'''
 <p>Prezado, Matheus Tonini</p>
 
-<p>A seguir Relatório de Vendas por cada Loja.</p>
+<p>Logo abaixo está o relatório de cada loja.</p>
 
 <p>Faturamento:</p>
 {faturamento.to_html(formatters={'Valor Final': 'R${:,.2f}'.format})}
